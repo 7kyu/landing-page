@@ -6,12 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Landing Page</title>
         <link rel="stylesheet" href="styles.css">
-        <link rel="icon" type="image/png" href="odin-icon.svg">
+        <link rel="icon" type="image/png" href="/images/odin-icon.svg">
     </head>
     <body>
         <header>
             <div class="logo">
-                <img src="odin-icon.svg" alt="Odin Logo">
+                <img src="/images/odin-icon.svg" alt="Odin Logo">
                 <a class="header-text">Odin Recipes</a>
             </div>
             <div class="nav-bar">
@@ -26,12 +26,40 @@
             <div class="main-left">
                 <h1>WELCOME TO ODIN RECIPES</h1>
                 <p>Let us light the hearth and start cooking!</p>
-                <button id="button">Start</button>
+                <button id="button"><a href="#second" class="button-a">Start</a></button>
             </div>
             <div class="main-right">
-                <img src="odin-eating.jpg" alt="Odin eating" id="odin">
+                <img src="/images/odin-eating.jpg" alt="Odin eating" id="odin">
             </div>
         </div>
+        <div id="second">
+            <h2>Some Nice Recipes</h2>
+            <div class="links">
+                <div class="wrap">
+                    <div class="link-pictures">
+                        <img src="/images/fish-soup.jpg" alt="Fish soup" class="pics">
+                    </div>
+                    <p class="desc">Basic Fish Soup</p>
+                </div>
+                <div class="wrap">
+                    <div class="link-pictures">
+                        <img src="/images/vine.jpg" alt="Mulled Vine" class="pics">
+                    </div>
+                    <p class="desc">Glühwein <br>(Hot Mulled Vine)</p>
+                </div>
+                <div class="wrap">
+                    <div class="link-pictures">
+                        <img src="/images/barley.jpg" alt="Barley Porridge" class="pics">
+                    </div>
+                    <p class="desc">Körnmjölsgröt <br> (Barley Porridge)</p>
+                </div>
+                <div class="wrap">
+                    <div class="link-pictures">
+                        <img src="/images/apple.jpg" alt="Apple Skives" class="pics">
+                    </div>  
+                    <p class="desc">Æbleskiver <br>(Apple Skives)</p>
+                </div>     
+            </div>
         </div>
     </body>
 </html>
