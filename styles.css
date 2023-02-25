@@ -21,6 +21,7 @@ header {
     color: #f9faf8;
     align-self: center;
     margin-left: 10px;
+    flex-shrink: 0;
 }
 
 .nav-text {
@@ -79,7 +80,6 @@ p {
     align-items: center;
     border-radius: 5px;
     border: none;
-    flex-shrink: 0;
 }
 
 .button-a {
@@ -117,6 +117,7 @@ h2 {
     flex-grow: 0;
     flex-basis: 200px;
     overflow: hidden;
+    margin-left: 30px;
 }
 
 .links {
@@ -142,4 +143,29 @@ h2 {
 .desc {
     color: #1f2937;
     text-align: center;
+}
+
+.third {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 20px;
+
+}
+
+h3 {
+    font-size: 36px;
+    font-style: oblique;
+    color: #1f2937;
+}
+
+.havamal-div {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    color: #1f2937;
+    justify-content: flex-end;
 }
