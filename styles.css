@@ -27,7 +27,8 @@ header {
 .nav-text {
     font-size: 16px;
     color: #e5e7eb;
-    margin-left: 10px;
+    margin-left: 15px;
+    text-decoration: none;
 }
 
 .logo {
@@ -167,6 +168,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     font-weight: bold;
+    font-size: 18px;
     color: #1f2937;
     justify-content: flex-end;
 }
@@ -210,4 +212,15 @@ button {
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
+}
+
+footer {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 100;
+
 }
